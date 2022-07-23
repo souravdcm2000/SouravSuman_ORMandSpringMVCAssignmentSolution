@@ -1,0 +1,14 @@
+Êþº¾   = P  7com/sourav/customerRelationshipManager/entity/Customer  java/lang/Object id I RuntimeVisibleAnnotations Ljavax/persistence/Id; "Ljavax/persistence/GeneratedValue; strategy "Ljavax/persistence/GenerationType; IDENTITY Ljavax/persistence/Column; 	firstName Ljava/lang/String; name 
+first_name lastName 	last_name email <init> ()V Code
+     LineNumberTable LocalVariableTable this 9Lcom/sourav/customerRelationshipManager/entity/Customer; 9(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V	     	  "  	  $   getId ()I	  (   setId (I)V getFirstName ()Ljava/lang/String; setFirstName (Ljava/lang/String;)V getLastName setLastName getEmail setEmail toString 5 java/lang/StringBuilder 7 Customer [id=
+ 4 9  .
+ 4 ; < = append (I)Ljava/lang/StringBuilder; ? , firstName=
+ 4 A < B -(Ljava/lang/String;)Ljava/lang/StringBuilder; D , lastName= F , email= H ]
+ 4 J 3 , 
+SourceFile Customer.java Ljavax/persistence/Entity; Ljavax/persistence/Table; customer !                  	  
+e                 s             s             s          3     *· ±       
+                           l     *· *+µ *,µ !*-µ #±           #  $ 	 %  &  '    *                            % &     /     *´ '¬           *              ) *     >     *µ '±       
+    .  /                    + ,     /     *´ °           2              - .     >     *+µ ±       
+    6  7                    / ,     /     *´ !°           :              0 .     >     *+µ !±       
+    >  ?                    1 ,     /     *´ #°           B              2 .     >     *+µ #±       
+    F  G                    3 ,     g     =» 4Y6· 8*´ '¶ :>¶ @*´ ¶ @C¶ @*´ !¶ @E¶ @*´ #¶ @G¶ @¶ I°           L        =      K    L      M   N  s O
